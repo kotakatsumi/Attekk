@@ -16,17 +16,14 @@ $app = new Illuminate\Foundation\Application(
 );
 
 switch ($_SERVER['HTTP_HOST'] ?? 'localhost') {
-    // 開発環境
     case 'localhost':
         $app->loadEnvironmentFrom('env/.env.dev');
         break;
 
-    // テスト環境
     case 'staging-atte':
         $app->loadEnvironmentFrom('env/.env.stg');
         break;
 
-    // 本番環境
     case 'prod-atte':
         $app->loadEnvironmentFrom('env/.env.prod');
         break;

@@ -10,7 +10,7 @@ db:seedでランダムで時間を取得して六人分のデータがシーデ�
 #　アプリケーションurl
 http://localhost          Atte
 http://localhost:8080/    phpmyadmin
-http://localhost8025      mailhog
+http://localhost:8025      mailhog
 
 #　機能一覧
 ユーザー登録

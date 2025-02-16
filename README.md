@@ -15,7 +15,7 @@
 - phpMyAdmin : [http://localhost:8080/](http://localhost:8080/)
 ## 使用技術(実行環境)
 例）
-- **PHP 8.X**　 
+- **PHP 7.X**　 
 - **Laravel 8.X**
 - **jquery 3.7.1.min.js**
 - **MySQL 8.0.26**
